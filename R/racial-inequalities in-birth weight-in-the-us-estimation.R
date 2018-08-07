@@ -133,7 +133,7 @@ gr_3 <- subset(mydata$dbwt, mydata$smoking_mothers == "Before_and_after")
 
 
 
-# FOr a Student test 
+# For a Student test 
 test_1 <- t.test(gr_1, gr_2, alternative = "two.sided", conf.level = 0.95, var.equal = FALSE)
 if (test_1$p.value > 0.05) 
   {print("We cannot reject the null hypothesis that smoking is harmless at 5% significance level between non-smoker and smoker groups.")} else {"We reject the null hypothesis that smoking is harmless to infants birth weight at 5% level of significance between non-smoker and smoker groups."}
@@ -141,14 +141,6 @@ if (test_1$p.value > 0.05)
 test_2 <- t.test(gr_1, gr_3, alternative = "two.sided", conf.level = 0.95, var.equal = FALSE)
 if (test_2$p.value > 0.05) 
 {print("We cannot reject the null hypothesis that smoking is harmless at 5% significance level between before only smokers and before and after smoker groups.")} else {"We reject the null hypothesis that smoking is harmless to infants birth weight at 5% level of significance between before only smokers and before and after smoker groups."}
-
-
-
-#End of assignment 1
-#a),b) were already done in ass1
-
-#c)
-setwd("C:/Users/Denis Korsak/Desktop/Business Economics Glendon/Econometrics 4260/Assignments/Assignment 1")
 
 rm(mydata, test_1,test_2,child_weight_by_education,child_weight_by_parental_smoking_factor,child_weight_by_race,child_weight_by_race_and_education, gr_1,gr_2,gr_3,num_educ) 
 
