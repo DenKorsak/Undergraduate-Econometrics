@@ -1,6 +1,4 @@
 
-#Set working directory
-setwd("C:/Users/Denis Korsak/Desktop/Business Economics/Econometrics 4260/Assignments/Assignment 1")
 
 #US Vital Statistics Data are available online at www.cdc.gov
 This is a 5% sample of Birth data for 2015 (currently the most recent birth data publicly available to download).
