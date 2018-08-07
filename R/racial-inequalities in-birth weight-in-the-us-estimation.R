@@ -1,3 +1,5 @@
+#US Vital Statistics Data are available online at www.cdc.gov
+This is a 5% sample of Birth data for 2015 (currently the most recent birth data publicly available to download).
 
 #Download packages
 library(foreign)
